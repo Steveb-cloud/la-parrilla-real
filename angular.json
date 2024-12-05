@@ -27,9 +27,13 @@
               }
             ],
             "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
+  "node_modules/bootstrap/dist/css/bootstrap.min.css",
+  "src/styles.css"
+],
+"scripts": [
+  "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+]
+
           },
           "configurations": {
             "production": {
@@ -84,13 +88,20 @@
                 "input": "public"
               }
             ],
-            "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
+"styles": [
+  "node_modules/bootstrap/dist/css/bootstrap.min.css",
+  "src/styles.css"
+],
+"scripts": [
+  "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+]
+
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "f323fe31-2727-4686-8c83-f3e79391c38b"
   }
 }
