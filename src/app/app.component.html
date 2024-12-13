@@ -3,9 +3,22 @@
   <app-sidebar></app-sidebar>
   <div class="content">
     <router-outlet></router-outlet>
-    <app-home></app-home>
-    <app-about></app-about>
-    <app-services></app-services>
-    <app-more></app-more>
+    
+    <div id="home" class="section">
+      <p><app-home></app-home></p>
+    </div>
+    
+    <div id="about" class="section">
+      <p><app-about></app-about></p>
+    </div>
+    
+    <div id="services" class="section">
+      <p><app-services></app-services></p>
+    </div>
+    
+    <div id="more" class="section">
+      <p><app-more></app-more></p>
+    </div>
+    
   </div>
 </div>
