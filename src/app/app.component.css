@@ -26,3 +26,37 @@ html, body {
     
   }
   
+  .social-icons {
+    position: fixed; /* Mantiene los íconos fijos en la pantalla */
+    bottom: 20px; /* Alineación vertical desde abajo */
+    right: 20px; /* Alineación horizontal desde la derecha */
+    display: flex;
+    flex-direction: column; /* Ordena los íconos en una columna */
+    gap: 15px; /* Espaciado entre los íconos */
+    z-index: 1000; /* Asegura que estén por encima del contenido */
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 50px; /* Tamaño de los íconos */
+    height: 50px;
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 50%; /* Forma circular */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2); /* Efecto de agrandamiento */
+    background-color: #f4f4f4; /* Cambia el fondo al pasar el cursor */
+}
+
+.social-icons a img {
+    width: 24px; /* Tamaño de las imágenes de los íconos */
+    height: 24px;
+}
+
+  
