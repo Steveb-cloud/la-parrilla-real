@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; 
+}
+
+.hero {
+    background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTJeYWhqT4iFiX4iQocOJ0adByno2cGOaM_L4hhJPITIfEt5F-z');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+
+.hero-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  background: rgba(97, 96, 96, 0.5);
+  padding: 20px;
+  border-radius: 8px;
+}
+  
+
+.btn-order {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #ff5722;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn-order:hover {
+  background-color: #e64a19;
+}

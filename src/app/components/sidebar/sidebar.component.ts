@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { MoreComponent } from "../more/more.component";
 
 @Component({
   selector: 'app-sidebar',
-  imports: [],
+  imports: [MoreComponent],
   templateUrl: './sidebar.component.html',
   styleUrl: './sidebar.component.css'
 })
